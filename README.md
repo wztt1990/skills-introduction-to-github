@@ -19,6 +19,13 @@ In this exercise, you will:
 3. Open a pull request
 4. Merge your pull request
 
+## STC8H8K64U 0.96" OLED I2C Driver
+
+This repository now includes a minimal SSD1306-compatible OLED I2C driver for the STC8H8K64U MCU.
+The implementation lives in `src/oled_i2c_stc8h8k64u.c` with its header in
+`src/oled_i2c_stc8h8k64u.h`. Call `OLED_Init()` to initialize the display and
+`OLED_Clear()` to clear the screen before rendering your own buffer data.
+
 ### How to start this exercise
 
 1. Right-click **Copy Exercise** and open the link in a new tab.
